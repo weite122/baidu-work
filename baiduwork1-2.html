@@ -1,0 +1,469 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>任务二：零基础HTML及CSS编码（一）</title>
+</head>
+<style type="text/css">
+body {
+        background-color: grey;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .box1 {
+        height: 70px;
+        width: auto;
+        background-color: #333333;
+    }
+
+    .box2 {
+        position: absolute;
+        margin-left: 50px;
+    }
+
+    .box3 ul {
+        float: right;
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .box3 ul li {
+        line-height: 70px;
+        width: 100px;
+        float: left;
+    }
+
+    .box3 a {
+        color: #FFFFFF;
+    }
+
+    .box3 a:hover {
+        color: #808080;
+    }
+
+    h2 {
+        font-size: 18px;
+        color: grey;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+}
+.p_1 {
+    font-size: 14px;
+    color: grey;
+}
+p {
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+.box4 {
+    margin: 30px;
+    padding: 30px;
+    background: white;
+}
+.box5 {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px 50px;
+    border: 1px solid black;
+}
+.box4 ul li {
+    list-style: none;
+    font-weight: bold;
+    line-height: 2em;
+}
+.box4 ol li {
+    font-weight: bold;
+    margin: 0 0 10px 40px;
+}
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid #808080;
+}
+
+}
+.box4 th {
+    border:1px solid #808080;
+}
+.box4 td {
+    border:1px solid #808080;
+}
+.box4 tfoot {
+    background-color: #808080;
+}
+caption {
+    font-weight: bold;
+    text-align: left;
+}
+thead {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: grey
+}
+.box5 span {
+    color: #000000;
+    margin-bottom: 10px;
+}
+.box6 {
+    margin: 50px 50px 30px 30px;
+    padding: 30px;
+    background: white;
+}
+.box6 h2 {
+    padding-left: 5px;
+    height: 35px;
+    line-height: 35px;
+    border-left: 5px solid #808080;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.box7 {
+    height: 70px;
+    width: auto;
+    text-align: center;
+    background-color: #000000;
+}
+.box7 p {
+    color: #FFFFFF;
+    line-height: 50px;
+}
+.box8 {
+    font-weight: bold;
+}
+.box9 {
+    margin-left: 20%;
+    line-height: 2em;
+}
+.box8 .frm_email {
+    margin-bottom: 10px;
+}
+.box8 .frm_password {
+    margin-bottom: 5px;
+}
+.box8 span {
+    color: #808080;
+    height: 20px;
+    position: relative;
+    left: 160px;
+}
+.box10 label {
+    float: left;
+    width: 10em;
+    text-align: right;
+}
+.box11{
+  float: left;
+   width: 10em;
+  text-align: right;
+}
+button {
+    width: 100%;
+    height: 40px;
+    background-color: #1E90FF;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 2px;
+}
+</style>
+
+<body>
+    <div class="box1">
+        <div class="box2">
+            <img src="gravel.jpg" width="100px" height="70px" />
+        </div>
+        <div class="box3">
+            <ul>
+                <li>
+                    <a href="#">导航链接一</a>
+                </li>
+                <li>
+                    <a href="#">导航链接二</a>
+                </li>
+                <li>
+                    <a href="#">导航链接三</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">导航链接四</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="box4">
+        <h1>文章一级标题</h1>
+        <h2>文章二级标题</h2>
+        <span>文章作者 &nbsp; 文章发表时间</span>
+
+        <p>
+            这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落， 换行了
+            <br /> 这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了
+            <br /> 这是一个很长很长的段落，这是一个很长很长的段落，
+            <a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。 这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落.
+        </p>
+        <img src="bark.jpg" />
+        <p>
+            这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+            <br /> 这是一个很长很长的段落， 换行了
+            <br /> 这是一个很长很长的段落，这是一个很长很长的段落，
+            <strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" target="_blank">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落。 这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落.
+        </p>
+    </div>
+    <div class="box4">
+        <h1>另一篇文章一级标题</h1>
+        <h2>文章二级标题</h2>
+        <span>
+        文章作者&nbsp;文章发表时间
+    </span>
+        <p>
+            这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+            <br /> 换行了
+            <br /> 这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了
+            <br /> 这是一个很长很长的段落，这是一个很长很长的段落，
+            <a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。 这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落.
+        </p>
+
+        <p>
+            这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+            <br /> 这是一个很长很长的段落， 换行了
+            <br /> 这是一个很长很长的段落，这是一个很长很长的段落，
+            <strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" target="_blank">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落。 这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落.
+        </p>
+        <img src="bark.jpg" />
+        <ul>
+            <li>
+                列表项目一
+            </li>
+            <li>
+                列表项目二
+            </li>
+            <li>
+                列表项目三
+            </li>
+        </ul>
+    </div>
+    <div class="box4">
+        <h1>图片</h1>
+        <div class="box5">
+            <span>好看的图片</span>
+            <img src="bark.jpg" width="100px" />
+        </div>
+
+        <div class="box5">
+            <span>好看的图片</span>
+            <img src="bark.jpg" width="100px" />
+        </div>
+        <div class="box5">
+            <span>好看的图片</span>
+            <img src="bark.jpg" width="100px" />
+        </div>
+        <div class="box5">
+            <span>好看的图片</span>
+            <img src="bark.jpg" width="100px" />
+        </div>
+        <div class="box5">
+            <span>好看的图片</span>
+            <img src="bark.jpg" width="100px" />
+        </div>
+        <div class="box5">
+            <span>好看的图片</span>
+            <img src="bark.jpg" width="100px" />
+        </div>
+        <div class="box5">
+            <span>好看的图片</span>
+            <img src="bark.jpg" width="100px" />
+        </div>
+        <div class="box5">
+            <span>好看的图片</span>
+            <img src="bark.jpg" width="100px" />
+        </div>
+        <div class="box5">
+            <span>好看的图片</span>
+            <img src="bark.jpg" width="100px" />
+        </div>
+        <div class="box5">
+            <span>好看的图片</span>
+            <img src="bark.jpg" width="100px" />
+        </div>
+        <div class="box5">
+            <span>好看的图片</span>
+            <img src="bark.jpg" width="100px" />
+        </div>
+    </div>
+    <div class="box4">
+        <h1>最后一篇文章一级标题</h1>
+        <h2>文章二级标题</h2>
+        <span>文章作者 &nbsp;文章发表时间</span>
+        <ol>
+            <li>
+                排名1
+            </li>
+            <li>
+                排名2
+            </li>
+            <li>
+                排名3
+            </li>
+        </ol>
+
+        <table>
+            <caption>
+                下面是一个表格，给表格加了一个border=“1”好让你看出是一个表格
+            </caption>
+            <thead>
+                <tr>
+                    <th>
+                        表头
+                    </th>
+                    <th>
+                        表头
+                    </th>
+                    <th>
+                        表头
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>
+                        表内容单元格
+                    </td>
+                    <td>
+                        表内容单元格
+                    </td>
+                    <td>
+                        <a href="#">操作</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        表内容单元格
+                    </td>
+                    <td>
+                        表内容单元格
+                    </td>
+                    <td>
+                        <a href="#">操作</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        表内容单元格
+                    </td>
+                    <td>
+                        表内容单元格
+                    </td>
+                    <td>
+                        <a href="#">操作</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        表内容单元格
+                    </td>
+                    <td>
+                        表内容单元格
+                    </td>
+                    <td>
+                        <a href="#">操作</a>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        总计
+                    </td>
+                    <td colspan="2">
+                        10000
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div class="box6">
+        <h2>这里以后是一个侧栏，这是侧栏的标题
+  </h2>
+
+        <div class="box8">
+            <form method="post" action="">
+                <div class="box9">
+                    <div class="box10">
+                        <div class="frm_email"><label for="email">输入你的邮箱地址&nbsp;&nbsp;&nbsp;</label>
+                            <input type="email" id="email" value="这是一个文本输入框" /></div>
+                        <span>邮箱地址请按要求格式输入</span>
+                        <div class="frm_password"><label for="password">请输入密码&nbsp;&nbsp;&nbsp;</label>
+                            <input type="password" name="password" value="12345678" /></div>
+                        <div class="frm_password"><label for="password">请重新输入密码&nbsp;&nbsp;&nbsp;</label>
+                            <input type="password" name="password" value="12345678" /></div>
+                        <span>密码请为6-16位英文数字</span></div>
+
+                    <div class="box11"><label>性别：</label></div>
+                    <label style="color:blue">男</label>
+                    <input type="radio" value="man" name="gender" checked="checked" />
+                    <label>女</label>
+                    <input type="radio" value="woman" name="gender" />
+                    <br /><div class="box11">城市：</div>
+                    <select>
+                        <option value="北京" selected="selected">
+                          北京
+                        </option>
+                        <option value="上海">
+                        上海
+                          </option>
+                        <option value="广州">
+                        广州
+                        </option>
+                        </select>
+
+                    <br /><div class="box11"><label>爱好：</label></div>
+                    <label>运动</label>
+                    <input type="checkbox" name="sport" />
+                    <label>艺术</label>
+                    <input type="checkbox" name="sport" />
+                    <label>科学</label>
+                    <input type="checkbox" name="sport" />
+                    <br />
+                    <div class="box11"><label>个人描述：</label></div>
+                    <textarea cols="100" rows="10">这是一个多行输入框，输入您的个人描述</textarea>
+                </div>
+
+                <div class="btns"><button type="submit">确认提交</button></div>
+
+            </form>
+        </div>
+    </div>
+
+
+    <div class="box7">
+        <footer>
+            <p>
+                版权所有&copy;
+            </p>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
